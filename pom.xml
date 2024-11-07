@@ -50,7 +50,7 @@
                             <hostedWebapp>${project.basedir}/src/main/webapp</hostedWebapp>
 
 
-                                <!-- 必须指定一个有效的 runTarget -->
+                                <!--ss 必须指定一个有效的 runTarget -->
                                 <runTarget>MyGwtModule.html</runTarget>
                         </configuration>
 
