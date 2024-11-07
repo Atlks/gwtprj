@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module  >
+
+    <!--
+     <source path="org/example"/>
+     如果你的代码不在 client 包下，需要用 <source> 指令指定路径 -->
+
+    <!-- Entry point -->
+    <entry-point class="pkg2.client.Md2" />
+
+    <!-- Add more resources like images, CSS, etc -->
+    <stylesheet src="style.css" />
+    <inherits name="com.google.gwt.core.Core"/>
+    <inherits name="com.google.gwt.core.Core"/>
+    <inherits name="com.google.gwt.user.UI"/>
+    <inherits name="com.google.gwt.user.UI"/>
+    <inherits name="com.google.gwt.user.UI"/>
+    <inherits name="com.google.gwt.user.UI"/>
+</module>
