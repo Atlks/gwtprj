@@ -44,17 +44,9 @@
                             <goal>compile</goal>
                             <goal>run</goal>
                         </goals>
+
+
                         <!-- -->
-                       <configuration>
-
-                            <hostedWebapp>${project.basedir}/src/main/webapp</hostedWebapp>
-
-
-                                <!--ss 必须指定一个有效的 runTarget -->
-                                <runTarget>MyGwtModule.html</runTarget>
-                        </configuration>
-
-                        <!--
                         <configuration>
                             <compilerArguments>
                                 <gwt.compiler.verbose>true</gwt.compiler.verbose>
@@ -62,9 +54,21 @@
                                 <disableOptimizations>true</disableOptimizations>
                             </compilerArguments>
                         </configuration>
-                        -->
+
                     </execution>
                 </executions>
+
+                <!-- -->
+                <configuration>
+
+                    <!---->
+                    <hostedWebapp>${project.basedir}/src/main/webapp</hostedWebapp>
+
+
+                    <!--ss 必须指定一个有效的 runTarget -->
+                    <runTarget>MyGwtModule.html</runTarget>
+                </configuration>
+
             </plugin>
 
             <plugin>
